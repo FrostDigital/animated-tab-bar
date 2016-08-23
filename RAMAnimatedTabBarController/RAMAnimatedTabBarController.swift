@@ -67,7 +67,7 @@ public class RAMAnimatedTabBarItem: UITabBarItem {
   @IBOutlet public var animation: RAMItemAnimation!
   
   /// The font used to render the UITabBarItem text.
-  public var textFont: UIFont = UIFont.systemFontOfSize(10)
+  public var textFont: UIFont = UIFont(name: "Avenir Next Condensed", size: 10)!
   
   /// The color of the UITabBarItem text.
   @IBInspectable public var textColor: UIColor = UIColor.blackColor()
